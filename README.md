@@ -23,6 +23,38 @@ Methods
  * [dispose](#dispose)
 
 
+ <a id="openFile"></a>
+ ### openFile         
+        /**
+         * Open the RAR file to process
+         * @param rarFile:String
+         * @param skipInvisibleFiles:Boolean
+         * @return void
+         */
+        public function openFile( rarFile:File , skipInvisibleFiles:Boolean = false ):Boolean
+
+ <a id="getReady"></a>
+ ### getReady 
+        /**
+         * Gets the instance status semaphore.
+         * If status is false, some process is executing in the background.
+         * You can call only one command at time.
+         * To process commands in parallel create new AneUnRar instances.
+         * @return Boolean
+         */                 
+        public function getReady( ):Boolean
+                 
+
+ <a id="isSupported"></a>
+ ### isSupported 
+        /**
+         * Check if the extension is supported
+         * @return Boolean
+         */
+        public static function isSupported():Boolean
+        {
+            return _isSupported;
+        }
 
  <a id="extractFileAsync"></a>
  ### extractFileAsync     
@@ -81,39 +113,6 @@ Methods
          * @return Array
          */
         public function getFilesSync( ):Array
-
- <a id="openFile"></a>
- ### openFile         
-        /**
-         * Open the RAR file to process
-         * @param rarFile:String
-         * @param skipInvisibleFiles:Boolean
-         * @return void
-         */
-        public function openFile( rarFile:File , skipInvisibleFiles:Boolean = false ):Boolean
-
- <a id="getReady"></a>
- ### getReady 
-        /**
-         * Gets the instance status semaphore.
-         * If status is false, some process is executing in the background.
-         * You can call only one command at time.
-         * To process commands in parallel create new AneUnRar instances.
-         * @return Boolean
-         */                 
-        public function getReady( ):Boolean
-                 
-
- <a id="isSupported"></a>
- ### isSupported 
-        /**
-         * Check if the extension is supported
-         * @return Boolean
-         */
-        public static function isSupported():Boolean
-        {
-            return _isSupported;
-        }
 
  <a id="dispose"></a>
  ### dispose         
