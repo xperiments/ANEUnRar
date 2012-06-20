@@ -11,15 +11,15 @@ IMPORTANT: AneUnRar includes some other open-source projects and such projects r
 
 Methods
 ----------------
- * [openFile](#openFile)
- * [getReady](#getReady)
- * [isSupported](#isSupported) 
- * [extractFileAsync](#extractFileAsync)
- * [extractFileSync](#extractFileSync)
- * [extractRarAsync](#extractRarAsync)
- * [extractRarSync](#extractRarSync)
- * [getFilesAsync](#getFilesAsync)
- * [getFilesSync](#getFilesSync)
+ * [openFile](#openfile) 
+ * [getReady](#getready)
+ * [isSupported](#issupported) 
+ * [extractFileAsync](#extractfileasync)
+ * [extractFileSync](#extractfilesync)
+ * [extractRarAsync](#extractrarasync)
+ * [extractRarSync](#extractrarsync)
+ * [getFilesAsync](#getfilesasync)
+ * [getFilesSync](#getfilessync)
  * [dispose](#dispose)
 
 
