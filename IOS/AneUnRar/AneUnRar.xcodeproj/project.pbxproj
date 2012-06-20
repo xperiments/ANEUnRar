@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3CA49415587E4800F63458 /* Foundation.framework */; };
+		CE3CA49B15587E4800F63458 /* AneUnRar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA49A15587E4800F63458 /* AneUnRar.m */; };
+		CE60041C158DE2EB00EF3F89 /* UnRAR.h in Headers */ = {isa = PBXBuildFile; fileRef = CE60041B158DE2EB00EF3F89 /* UnRAR.h */; };
+		CE600420158DE3AA00EF3F89 /* libUnRAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE60041F158DE3AA00EF3F89 /* libUnRAR.a */; };
+		CE600423158DE43C00EF3F89 /* AneUnRarHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE600421158DE43C00EF3F89 /* AneUnRarHelper.h */; };
+		CE600424158DE43C00EF3F89 /* AneUnRarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE600422158DE43C00EF3F89 /* AneUnRarHelper.m */; };
+		CE600426158DE55B00EF3F89 /* AneUnRar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE600425158DE55B00EF3F89 /* AneUnRar.h */; };
+		CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */; };
+		CEE8BDC9155AF6D500A18A74 /* AneUnRarEventMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC7155AF6D500A18A74 /* AneUnRarEventMessages.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3CA49115587E4800F63458 /* libAneUnRar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAneUnRar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3CA49415587E4800F63458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3CA49815587E4800F63458 /* AneUnRar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AneUnRar-Prefix.pch"; sourceTree = "<group>"; };
+		CE3CA49A15587E4800F63458 /* AneUnRar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AneUnRar.m; sourceTree = "<group>"; };
+		CE60041B158DE2EB00EF3F89 /* UnRAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnRAR.h; path = ../UnRAR.h; sourceTree = "<group>"; };
+		CE60041F158DE3AA00EF3F89 /* libUnRAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUnRAR.a; path = ../libUnRAR.a; sourceTree = "<group>"; };
+		CE600421158DE43C00EF3F89 /* AneUnRarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AneUnRarHelper.h; sourceTree = "<group>"; };
+		CE600422158DE43C00EF3F89 /* AneUnRarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AneUnRarHelper.m; sourceTree = "<group>"; };
+		CE600425158DE55B00EF3F89 /* AneUnRar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AneUnRar.h; path = ../AneUnRar.h; sourceTree = "<group>"; };
+		CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		CEE8BDC7155AF6D500A18A74 /* AneUnRarEventMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AneUnRarEventMessages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3CA48E15587E4800F63458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */,
+				CE600420158DE3AA00EF3F89 /* libUnRAR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3CA48615587E4800F63458 = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49615587E4800F63458 /* AneUnRar */,
+				CE3CA49315587E4800F63458 /* Frameworks */,
+				CE3CA49215587E4800F63458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3CA49215587E4800F63458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49115587E4800F63458 /* libAneUnRar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3CA49315587E4800F63458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49415587E4800F63458 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3CA49615587E4800F63458 /* AneUnRar */ = {
+			isa = PBXGroup;
+			children = (
+				CE60041E158DE30D00EF3F89 /* libUnRAR */,
+				CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */,
+				CEE8BDC7155AF6D500A18A74 /* AneUnRarEventMessages.h */,
+				CE3CA49A15587E4800F63458 /* AneUnRar.m */,
+				CE600425158DE55B00EF3F89 /* AneUnRar.h */,
+				CE3CA49715587E4800F63458 /* Supporting Files */,
+				CE600421158DE43C00EF3F89 /* AneUnRarHelper.h */,
+				CE600422158DE43C00EF3F89 /* AneUnRarHelper.m */,
+			);
+			path = AneUnRar;
+			sourceTree = "<group>";
+		};
+		CE3CA49715587E4800F63458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49815587E4800F63458 /* AneUnRar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE60041E158DE30D00EF3F89 /* libUnRAR */ = {
+			isa = PBXGroup;
+			children = (
+				CE60041F158DE3AA00EF3F89 /* libUnRAR.a */,
+				CE60041B158DE2EB00EF3F89 /* UnRAR.h */,
+			);
+			name = libUnRAR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE3CA48F15587E4800F63458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */,
+				CEE8BDC9155AF6D500A18A74 /* AneUnRarEventMessages.h in Headers */,
+				CE60041C158DE2EB00EF3F89 /* UnRAR.h in Headers */,
+				CE600423158DE43C00EF3F89 /* AneUnRarHelper.h in Headers */,
+				CE600426158DE55B00EF3F89 /* AneUnRar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE3CA49015587E4800F63458 /* AneUnRar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "AneUnRar" */;
+			buildPhases = (
+				CE3CA48D15587E4800F63458 /* Sources */,
+				CE3CA48E15587E4800F63458 /* Frameworks */,
+				CE3CA48F15587E4800F63458 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AneUnRar;
+			productName = AneUnRar;
+			productReference = CE3CA49115587E4800F63458 /* libAneUnRar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3CA48815587E4800F63458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = xperiments;
+			};
+			buildConfigurationList = CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "AneUnRar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3CA48615587E4800F63458;
+			productRefGroup = CE3CA49215587E4800F63458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3CA49015587E4800F63458 /* AneUnRar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3CA48D15587E4800F63458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49B15587E4800F63458 /* AneUnRar.m in Sources */,
+				CE600424158DE43C00EF3F89 /* AneUnRarHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE3CA49C15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3CA49D15587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3CA49F15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				DSTROOT = /tmp/AneUnRar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AneUnRar/AneUnRar-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3CA4A015587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				DSTROOT = /tmp/AneUnRar.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AneUnRar/AneUnRar-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "AneUnRar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49C15587E4800F63458 /* Debug */,
+				CE3CA49D15587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "AneUnRar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49F15587E4800F63458 /* Debug */,
+				CE3CA4A015587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3CA48815587E4800F63458 /* Project object */;
+}
